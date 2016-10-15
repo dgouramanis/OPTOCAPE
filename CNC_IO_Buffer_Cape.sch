@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2839,6 +2839,77 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 </package>
 <package name="OSH_LOGO">
 <polygon width="0" layer="21">
+<vertex x="3.0226" y="2.0066"/>
+<vertex x="3.111421875" y="1.95330625"/>
+<vertex x="3.131896875" y="1.889546875"/>
+<vertex x="2.512246875" y="0.459584375"/>
+<vertex x="2.439496875" y="0.436221875"/>
+<vertex x="2.2352" y="0.5588"/>
+<vertex x="2.1082" y="0.5588"/>
+<vertex x="1.4478" y="0.1016"/>
+<vertex x="0.762" y="0.762"/>
+<vertex x="1.2446" y="1.4986"/>
+<vertex x="1.1303" y="1.8161"/>
+<vertex x="1.0033" y="2.1463"/>
+<vertex x="0.9906" y="2.1844"/>
+<vertex x="0.0889" y="2.3749"/>
+<vertex x="0.0889" y="3.302"/>
+<vertex x="1.0033" y="3.4671"/>
+<vertex x="1.1303" y="3.7973"/>
+<vertex x="1.2827" y="4.1656"/>
+<vertex x="0.762" y="4.9276"/>
+<vertex x="1.4224" y="5.588"/>
+<vertex x="2.1844" y="5.0673"/>
+<vertex x="2.5781" y="5.2197"/>
+<vertex x="2.8575" y="5.334"/>
+<vertex x="3.0353" y="6.2611"/>
+<vertex x="3.9751" y="6.2611"/>
+<vertex x="4.1656" y="5.3086"/>
+<vertex x="4.5085" y="5.1943"/>
+<vertex x="4.8006" y="5.0673"/>
+<vertex x="5.5753" y="5.5753"/>
+<vertex x="6.2484" y="4.9276"/>
+<vertex x="5.7277" y="4.1529"/>
+<vertex x="5.9055" y="3.7846"/>
+<vertex x="6.0325" y="3.4798"/>
+<vertex x="6.9215" y="3.3147"/>
+<vertex x="6.9215" y="2.3749"/>
+<vertex x="6.0325" y="2.1971"/>
+<vertex x="5.9055" y="1.8415"/>
+<vertex x="5.7531" y="1.4986"/>
+<vertex x="6.2484" y="0.7874"/>
+<vertex x="5.5753" y="0.1016"/>
+<vertex x="4.8514" y="0.5842"/>
+<vertex x="4.519284375" y="0.41814375"/>
+<vertex x="4.474990625" y="0.4569375"/>
+<vertex x="3.8878375" y="1.88288125"/>
+<vertex x="3.902640625" y="1.94154375"/>
+<vertex x="4.1529" y="2.1463"/>
+<vertex x="4.3053" y="2.3241"/>
+<vertex x="4.4323" y="2.6035"/>
+<vertex x="4.4577" y="2.7305"/>
+<vertex x="4.4577" y="2.9718"/>
+<vertex x="4.4196" y="3.0861"/>
+<vertex x="4.3688" y="3.2639"/>
+<vertex x="4.2926" y="3.3909"/>
+<vertex x="4.2291" y="3.4671"/>
+<vertex x="4.0386" y="3.6322"/>
+<vertex x="3.8608" y="3.7211"/>
+<vertex x="3.683" y="3.7719"/>
+<vertex x="3.5687" y="3.7973"/>
+<vertex x="3.4163" y="3.7973"/>
+<vertex x="3.2766" y="3.7592"/>
+<vertex x="3.0607" y="3.6703"/>
+<vertex x="2.8829" y="3.5687"/>
+<vertex x="2.7559" y="3.4036"/>
+<vertex x="2.6797" y="3.302"/>
+<vertex x="2.5781" y="3.0861"/>
+<vertex x="2.5781" y="2.5781"/>
+<vertex x="2.6543" y="2.413"/>
+<vertex x="2.7686" y="2.2479"/>
+<vertex x="2.8956" y="2.1082"/>
+</polygon>
+<polygon width="0" layer="209">
 <vertex x="3.0226" y="2.0066"/>
 <vertex x="3.111421875" y="1.95330625"/>
 <vertex x="3.131896875" y="1.889546875"/>
@@ -9304,8 +9375,8 @@ Metric Code Size 1608</description>
 Metric Code Size 2012</description>
 <wire x1="-0.925" y1="0.6" x2="0.925" y2="0.6" width="0.1016" layer="51"/>
 <wire x1="0.925" y1="-0.6" x2="-0.925" y2="-0.6" width="0.1016" layer="51"/>
-<smd name="1" x="-1" y="0" dx="1.3" dy="1.6" layer="1"/>
-<smd name="2" x="1" y="0" dx="1.3" dy="1.6" layer="1"/>
+<smd name="1" x="-1" y="0" dx="1.3" dy="1.524" layer="1"/>
+<smd name="2" x="1" y="0" dx="1.3" dy="1.524" layer="1"/>
 <text x="-1" y="0.875" size="1.016" layer="25">&gt;NAME</text>
 <text x="-1" y="-1.9" size="1.016" layer="27">&gt;VALUE</text>
 <rectangle x1="-1" y1="-0.65" x2="-0.5" y2="0.65" layer="51"/>
@@ -12215,7 +12286,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="314.96" y1="-266.7" x2="314.96" y2="-264.16" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$40" class="0">
+<net name="9.19" class="0">
 <segment>
 <pinref part="U$11" gate="G$1" pin="+"/>
 <wire x1="259.08" y1="213.36" x2="259.08" y2="208.28" width="0.1524" layer="91"/>
@@ -12228,7 +12299,7 @@ BRAKE DURING ESTOP.</text>
 <junction x="264.16" y="208.28"/>
 </segment>
 </net>
-<net name="N$43" class="0">
+<net name="8.8" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="8_GPIO67"/>
 <wire x1="391.16" y1="-12.7" x2="378.46" y2="-12.7" width="0.1524" layer="91"/>
@@ -12241,7 +12312,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="391.16" y1="50.8" x2="154.94" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$44" class="0">
+<net name="8.10" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="10_GPIO68"/>
 <wire x1="378.46" y1="-15.24" x2="393.7" y2="-15.24" width="0.1524" layer="91"/>
@@ -12256,7 +12327,7 @@ BRAKE DURING ESTOP.</text>
 <junction x="154.94" y="-52.07"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="9.14" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="14_EHRPWM1A"/>
 <wire x1="378.46" y1="177.8" x2="604.52" y2="177.8" width="0.1524" layer="91"/>
@@ -12265,7 +12336,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="604.52" y1="198.12" x2="678.18" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="9.16" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="16_EHRPWM1B"/>
 <wire x1="378.46" y1="175.26" x2="601.98" y2="175.26" width="0.1524" layer="91"/>
@@ -12274,7 +12345,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="601.98" y1="236.22" x2="678.18" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="9.18" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="18_SPI0_D1"/>
 <wire x1="378.46" y1="172.72" x2="599.44" y2="172.72" width="0.1524" layer="91"/>
@@ -12283,7 +12354,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="599.44" y1="276.86" x2="678.18" y2="276.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="9.41" class="0">
 <segment>
 <pinref part="9.41" gate="G$1" pin="AN"/>
 <wire x1="294.64" y1="355.6" x2="678.18" y2="355.6" width="0.1524" layer="91"/>
@@ -12292,7 +12363,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="294.64" y1="142.24" x2="322.58" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="9.27" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="27_GPIO115"/>
 <wire x1="322.58" y1="160.02" x2="292.1" y2="160.02" width="0.1524" layer="91"/>
@@ -12301,7 +12372,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="292.1" y1="314.96" x2="678.18" y2="314.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="9.24" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="24_UART1_TXD"/>
 <wire x1="378.46" y1="165.1" x2="655.32" y2="165.1" width="0.1524" layer="91"/>
@@ -12310,7 +12381,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="655.32" y1="119.38" x2="678.18" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="9.26" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="26_UART1_RXD"/>
 <wire x1="378.46" y1="162.56" x2="675.64" y2="162.56" width="0.1524" layer="91"/>
@@ -12335,14 +12406,14 @@ BRAKE DURING ESTOP.</text>
 <pinref part="JP1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="8.12" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="12_GPIO44"/>
 <pinref part="8.12" gate="G$1" pin="AN"/>
 <wire x1="378.46" y1="-17.78" x2="680.72" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="8.14" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="14_GPIO26"/>
 <wire x1="378.46" y1="-20.32" x2="662.94" y2="-20.32" width="0.1524" layer="91"/>
@@ -12351,7 +12422,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="662.94" y1="-99.06" x2="680.72" y2="-99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$25" class="0">
+<net name="8.13" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="13_EHRPWM2B"/>
 <wire x1="322.58" y1="-20.32" x2="276.86" y2="-20.32" width="0.1524" layer="91"/>
@@ -12362,7 +12433,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="647.7" y1="-55.88" x2="680.72" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$27" class="0">
+<net name="8.15" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="15_GPIO47"/>
 <wire x1="322.58" y1="-22.86" x2="274.32" y2="-22.86" width="0.1524" layer="91"/>
@@ -12373,7 +12444,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="647.7" y1="-137.16" x2="680.72" y2="-137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$28" class="0">
+<net name="8.19" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="19_EHRPWM2A"/>
 <wire x1="322.58" y1="-27.94" x2="279.4" y2="-27.94" width="0.1524" layer="91"/>
@@ -12384,7 +12455,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="642.62" y1="-177.8" x2="680.72" y2="-177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$29" class="0">
+<net name="8.26" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="26_GPIO61"/>
 <wire x1="378.46" y1="-35.56" x2="637.54" y2="-35.56" width="0.1524" layer="91"/>
@@ -13197,7 +13268,7 @@ BRAKE DURING ESTOP.</text>
 <pinref part="U$4" gate="G$1" pin="10"/>
 </segment>
 </net>
-<net name="N$99" class="0">
+<net name="8.11" class="0">
 <segment>
 <wire x1="256.54" y1="-261.62" x2="297.18" y2="-261.62" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="32-NSHTDN"/>
@@ -13221,7 +13292,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="347.98" y1="-198.12" x2="347.98" y2="-195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="A0" class="0">
+<net name="9.39" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="39_AIN0"/>
 <wire x1="322.58" y1="144.78" x2="307.34" y2="144.78" width="0.1524" layer="91"/>
@@ -13231,7 +13302,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="345.44" y1="111.76" x2="345.44" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="A2" class="0">
+<net name="9.37" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="37_AIN2"/>
 <wire x1="322.58" y1="147.32" x2="304.8" y2="147.32" width="0.1524" layer="91"/>
@@ -13241,7 +13312,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="350.52" y1="111.76" x2="350.52" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="A1" class="0">
+<net name="9.40" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="40_AIN1"/>
 <wire x1="378.46" y1="144.78" x2="393.7" y2="144.78" width="0.1524" layer="91"/>
@@ -13251,7 +13322,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="347.98" y1="119.38" x2="347.98" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="A3" class="0">
+<net name="9.38" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="38_AIN3"/>
 <wire x1="378.46" y1="147.32" x2="396.24" y2="147.32" width="0.1524" layer="91"/>
@@ -13261,7 +13332,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="353.06" y1="114.3" x2="353.06" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="9*15" class="0">
+<net name="9.42" class="0">
 <segment>
 <wire x1="398.78" y1="208.28" x2="581.66" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="581.66" y1="208.28" x2="581.66" y2="66.04" width="0.1524" layer="91"/>
@@ -13272,7 +13343,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="398.78" y1="142.24" x2="378.46" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="9*21" class="0">
+<net name="9.29" class="0">
 <segment>
 <wire x1="302.26" y1="210.82" x2="584.2" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="584.2" y1="210.82" x2="584.2" y2="27.94" width="0.1524" layer="91"/>
@@ -13385,7 +13456,7 @@ BRAKE DURING ESTOP.</text>
 <pinref part="U$5" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$30" class="0">
+<net name="9.11" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="+"/>
 <wire x1="190.5" y1="245.11" x2="195.58" y2="245.11" width="0.1524" layer="91"/>
@@ -13441,7 +13512,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="248.92" y1="237.49" x2="248.92" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$115" class="0">
+<net name="8.7" class="0">
 <segment>
 <pinref part="U$12" gate="G$1" pin="+"/>
 <wire x1="149.86" y1="16.51" x2="154.94" y2="16.51" width="0.1524" layer="91"/>
@@ -13475,7 +13546,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="152.4" y1="-251.46" x2="148.59" y2="-251.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$121" class="0">
+<net name="9.12" class="0">
 <segment>
 <pinref part="U$15" gate="G$1" pin="+"/>
 <wire x1="488.95" y1="110.49" x2="483.87" y2="110.49" width="0.1524" layer="91"/>
@@ -13516,7 +13587,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="281.94" y1="144.78" x2="281.94" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$128" class="0">
+<net name="9.25" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="25_GPIO117"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
@@ -13524,7 +13595,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="281.94" y1="162.56" x2="281.94" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$124" class="0">
+<net name="9.13" class="0">
 <segment>
 <pinref part="9.3" gate="G$1" pin="AN"/>
 <wire x1="191.77" y1="289.56" x2="215.9" y2="289.56" width="0.1524" layer="91"/>
@@ -13574,7 +13645,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="146.05" y1="234.95" x2="152.4" y2="234.95" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$131" class="0">
+<net name="9.15" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="+"/>
 <wire x1="285.75" y1="72.39" x2="280.67" y2="72.39" width="0.1524" layer="91"/>
@@ -13619,7 +13690,7 @@ BRAKE DURING ESTOP.</text>
 <junction x="153.67" y="294.64"/>
 </segment>
 </net>
-<net name="N$138" class="0">
+<net name="9.23" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="23_GPIO49"/>
 <pinref part="SPICS1" gate="G$1" pin="A"/>
@@ -13640,7 +13711,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="242.57" y1="121.92" x2="240.03" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$140" class="0">
+<net name="9.17" class="0">
 <segment>
 <pinref part="SPICS3" gate="G$1" pin="A"/>
 <wire x1="240.03" y1="132.08" x2="251.46" y2="132.08" width="0.1524" layer="91"/>
@@ -13649,7 +13720,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="322.58" y1="172.72" x2="251.46" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$141" class="0">
+<net name="9.21" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="21_SPI0_DO"/>
 <wire x1="322.58" y1="167.64" x2="254" y2="167.64" width="0.1524" layer="91"/>
@@ -13658,7 +13729,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="254" y1="97.79" x2="240.03" y2="97.79" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$41" class="0">
+<net name="8.9" class="0">
 <segment>
 <pinref part="U$13" gate="G$1" pin="+"/>
 <wire x1="149.86" y1="-17.78" x2="154.94" y2="-17.78" width="0.1524" layer="91"/>
@@ -13670,7 +13741,7 @@ BRAKE DURING ESTOP.</text>
 <junction x="154.94" y="-15.24"/>
 </segment>
 </net>
-<net name="N$42" class="0">
+<net name="9.34" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="34_GNDA_ADC"/>
 <wire x1="378.46" y1="152.4" x2="403.86" y2="152.4" width="0.1524" layer="91"/>
@@ -13678,7 +13749,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="403.86" y1="152.4" x2="403.86" y2="143.51" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$109" class="0">
+<net name="9.32" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="32_VDD_ADC"/>
 <wire x1="378.46" y1="154.94" x2="408.94" y2="154.94" width="0.1524" layer="91"/>
@@ -13693,7 +13764,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="447.04" y1="107.95" x2="444.5" y2="107.95" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$113" class="0">
+<net name="9.30" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="30_GPIO112"/>
 <wire x1="378.46" y1="157.48" x2="447.04" y2="157.48" width="0.1524" layer="91"/>
@@ -13758,7 +13829,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="415.29" y1="118.11" x2="420.37" y2="118.11" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$107" class="0">
+<net name="8.17" class="0">
 <segment>
 <pinref part="R22" gate="G$1" pin="1"/>
 <pinref part="U$8" gate="G$1" pin="+"/>
@@ -13771,7 +13842,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="142.24" y1="-205.74" x2="219.71" y2="-205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$145" class="0">
+<net name="8.16" class="0">
 <segment>
 <pinref part="R34" gate="G$1" pin="1"/>
 <pinref part="U$14" gate="G$1" pin="+"/>
@@ -13786,7 +13857,7 @@ BRAKE DURING ESTOP.</text>
 <wire x1="181.61" y1="-237.49" x2="226.06" y2="-237.49" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$119" class="0">
+<net name="8.18" class="0">
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
 <pinref part="U$7" gate="G$1" pin="+"/>
