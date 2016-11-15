@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -11508,8 +11508,6 @@ BRAKE DURING ESTOP.</text>
 <text x="134.62" y="299.72" size="1.778" layer="91">UART4 TX</text>
 <text x="142.24" y="251.46" size="1.778" layer="91">UART4 RX</text>
 <text x="99.06" y="129.54" size="1.778" layer="91">min 10uf</text>
-<text x="360.68" y="-309.88" size="1.778" layer="91">check shock risk of inverter
-verify Vout regulation of LM1117 at 0mA</text>
 </plain>
 <instances>
 <instance part="9.24" gate="G$1" x="690.88" y="121.92"/>
