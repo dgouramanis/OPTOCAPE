@@ -38,7 +38,7 @@
 		"P8.29",	/* lcd: lcd_hsync */
 		"P8.28",	/* lcd: lcd_pclk */
 		"P8.30",	/* lcd: lcd_ac_bias_en */
-
+		"P9.22", /* lcd: gpio0_2 */
 
 		"lcd",
 		/* the pin header uses */
@@ -53,6 +53,7 @@
 
 			lcd_pins_default: pinmux_lcd_pins_default {
 				pinctrl-single,pins = <
+					0x150 0x07	/* spi0_sclk.gpio0_2, OUTPUT | MODE7 - AVDD_EN */
 					0xa0 0x08	/* lcd_data0.lcd_data0, OMAP_MUX_MODE0 | AM33XX_PIN_OUTPUT | AM33XX_PULL_DISA */
 					0xa3 0x08	/* lcd_data1.lcd_data1, OMAP_MUX_MODE0 | AM33XX_PIN_OUTPUT | AM33XX_PULL_DISA */
 					0xa8 0x08	/* lcd_data2.lcd_data2, OMAP_MUX_MODE0 | AM33XX_PIN_OUTPUT | AM33XX_PULL_DISA */
@@ -125,7 +126,7 @@
 			};
 
 			panel {
-				compatible = "tilcdc,panel";
+				compatible = "ti,tilcdc,panel";
 				pinctrl-names = "default";
 				pinctrl-0 = <&lcd_pins_default>;
 				panel-info {
@@ -163,6 +164,7 @@
 				interrupt-parent = <&intc>;
 				interrupts = <36>;
 				ti,hwmods = "lcdc";
+				ti,power-gpio = <&gpio1 2 0x0>;
 				status = "okay";
 				ti,allow-non-reduced-blanking-modes;
 			};
@@ -170,11 +172,3 @@
 		};
 	};
 };
-
-
-
-
-
-
-
-
