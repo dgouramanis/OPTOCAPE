@@ -42,12 +42,8 @@
                 "P8.28",        /* lcd: lcd_pclk */
                 "P8.30",        /* lcd: lcd_ac_bias_en */
 
-                "P9.13",        /* uart4_txd */
-                "P9.11",        /* uart4_rxd */
-
                 "lcdc",
-		"tscadc",
-                "uart4";
+		"tscadc";
 
         fragment@0 {
                 target = <&am33xx_pinmux>;
@@ -80,12 +76,6 @@
                                 >;
                         };
 
-                        bb_uart4_pins: pinmux_bb_uart4_pins {
-                                pinctrl-single,pins = <
-                                        BONE_P9_13 (PIN_OUTPUT | MUX_MODE6)     // gpmc_wpn.uart4_txd_mux2
-                                        BONE_P9_11 (PIN_INPUT  | MUX_MODE6)     // gpmc_wait0.uart4_rxd_mux2
-                                >;
-                        };
                 };
         };
 
@@ -96,17 +86,7 @@
                 };
         };
 
-        fragment@2 {
-                target = <&uart4>;
-                __overlay__ {
-                        status = "okay";
-                        pinctrl-names = "default";
-                        pinctrl-0 = <&bb_uart4_pins>;
-                };
-        };
-
-
-	fragment@3 {
+	fragment@2 {
 		target = <&tscadc>;
 		__overlay__ {
 
@@ -129,7 +109,7 @@
 	};
 
 
-        fragment@4 {
+        fragment@3 {
                 target-path="/";
                 __overlay__ {
 
