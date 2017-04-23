@@ -18,6 +18,7 @@ The outputs are divided into five sections. Each section is powered through sepe
 
 The input voltage range is 3-6 volts.
 
+5 VDC power source connected to DC power Jack or VDD_5V is required for LVDS.
 
 You can buy an Optocape at the link below. 
 
