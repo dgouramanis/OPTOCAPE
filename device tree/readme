@@ -1,0 +1,4 @@
+I found the best way to use Optocape is with beaglebone-universal-io.
+https://github.com/cdsteinkuehler/beaglebone-universal-io
+
+The example .dts file configures the LCD and touch only. All the other features can be enabled at run time with beaglebone-universal-io
