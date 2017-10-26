@@ -2,6 +2,7 @@
  * OPTOCAPE BeagleBone Black Cape
  * XGA LCD Panel
  * 400 ohm 4-wire resistive touch
+ * kernel version 4.x
  */
 
 /dts-v1/;
