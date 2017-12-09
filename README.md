@@ -1,4 +1,5 @@
 CNC buffer cape for BeagleBone Black
+https://youtu.be/7uQYPXgA6WU
 
 This cape was originally designed for a CNC milling machine. The opto-I/O was designed to accomidate four stepper axis with limit switches, spindle, coolant, LED light, and more. 
 
